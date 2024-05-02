@@ -1,0 +1,44 @@
+@import url(https://db.onlinewebfonts.com/c/5fd740bac1abfb826fb7e35ae963efc9?family=ABChanel+Corpo+Regular);
+
+.logo
+{
+    color:white;
+    position:absolute;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    font-family: ABChanel Corpo Regular, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    
+}
+
+html , body
+{
+    background-color: black;
+    display: flex;
+ 
+}
+
+
+p
+{
+    font-family: ABChanel Corpo Regular, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+  color: white;
+text-align: justify;
+font-size: larger;
+
+
+
+}
+
+div
+{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 1000px;
+    height: 300px;
+    text-align: center;
+}

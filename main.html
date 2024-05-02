@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href ="style.css">
+</head>
+
+
+<body>
+    <div class="split left">
+      <h1 class="logo"><a href="../coco/coco.html">COCO</a></h1>
+      <video class= clip id="background-video1" muted>
+            <source src="../ceas/J12 Automaton Calibre 6 watch - Fine Watchmaking   CHANEL (1).mp4">
+          </video>
+        <div class="centered">
+           <a class="btn1"href="../ceas/ceas.html">View more</a>
+        </div>
+      </div>
+      <div class="vl center"></div>
+      <div class="split right">
+        <h1 class="logo"><a href="../channel/chanel.html">CHANEL</a></h1>
+        <video class= clip id="background-video2" muted>
+          <source src="../lant/TWEED DE CHANEL Collection – High Jewellery   CHANEL (1).mp4">
+        </video>
+        <div class="centered">
+      
+          <a class="btn2"href="../lant/lant.html">View more</a>
+        </div>
+      </div>
+
+      <script>
+        const clip= document.querySelectorAll('.clip')
+        for(let i = 0; i<clip.length; i++)
+        {
+          clip[i].addEventListener('mouseenter' , function(e){
+            clip[i].play()
+          })
+          clip[i].addEventListener('mouseout' , function(e){
+            clip[i].pause()
+          })
+        }
+
+      </script>
+
+
+</body>
+
+
+</html>
